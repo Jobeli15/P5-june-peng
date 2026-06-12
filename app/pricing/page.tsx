@@ -23,6 +23,7 @@ export default function PricingPage() {
 
       <p>Pricing? Boring!</p>
       <p>Info? Nice!</p>
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQz2L_eqqTBW_Xz6xJ6TrJnExM3TGCDDfBEzQ&s" alt="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQz2L_eqqTBW_Xz6xJ6TrJnExM3TGCDDfBEzQ&s" />
 
       <section className="mt-20">
         <h2 className="text-center text-4xl font-bold">TAKE SOME FREE PLANS RAHH!</h2>

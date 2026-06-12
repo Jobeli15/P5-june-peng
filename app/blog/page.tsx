@@ -57,6 +57,8 @@ export default function BlogPage() {
           description="You learn basic HTML and are able to post your very own website"
           title="Reason 2"
         />
+        <img src="https://img.pikbest.com/wp/202405/sleek-black-computer-blending-seamlessly-into-a-dark-background-3d-render_9839891.jpg!sw800" alt="https://img.pikbest.com/wp/202405/sleek-black-computer-blending-seamlessly-into-a-dark-background-3d-render_9839891.jpg!sw800" />
+        
       </div>
     </div>
   );
