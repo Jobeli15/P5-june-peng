@@ -29,7 +29,7 @@ export const Navbar = () => {
       <NavbarContent justify="start">
         <NavbarBrand>
           <NextLink className="text-sm font-semibold" href="/">
-            logo
+            Home↑2
           </NextLink>
         </NavbarBrand>
       </NavbarContent>

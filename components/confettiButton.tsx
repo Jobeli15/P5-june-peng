@@ -12,25 +12,25 @@ export default function ConfettiButton() {
     addToast({
       title: "Info",
       description:
-        "This celebrate button is a component. You can add it anywhere!",
+        "It will freeze if u click it enough times :)",
       color: "primary",
     });
 
-    const colors = ["#a855f7", "#6366f1", "#ec4899", "#22d3ee"];
+    const colors = ["#FB2C36", "#FB2C36", "#05DF72", "#05DF72", "#155DFC","#155DFC"];
 
     (function frame() {
       confetti({
-        particleCount: 6,
-        angle: 60,
-        spread: 70,
+        particleCount: 100,
+        angle: 600,
+        spread: 700,
         origin: { x: 0 },
         colors,
       });
 
       confetti({
-        particleCount: 6,
-        angle: 120,
-        spread: 70,
+        particleCount: 100,
+        angle: 1200,
+        spread: 700,
         origin: { x: 1 },
         colors,
       });
@@ -48,7 +48,7 @@ export default function ConfettiButton() {
       variant="shadow"
       onPress={fireConfetti}
     >
-      Celebrate!
+      Crash button
     </Button>
   );
 }

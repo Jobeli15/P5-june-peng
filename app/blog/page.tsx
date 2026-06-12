@@ -24,8 +24,9 @@ export default function BlogPage() {
           addToast({
             title: "Hey!",
             description:
-              "This doesn't link anywhere. But you can make it so it does!",
+              "🤓☝️",
             color: "danger",
+            
           });
         }}
       >
@@ -44,17 +45,17 @@ export default function BlogPage() {
 
   return (
     <div>
-      <h1 className={title()}>Blog</h1>
+      <h1 className={title()}>Why you should to web design 🫵</h1>
       <div className="mt-20 flex flex-col gap-6">
         <Post
-          date={new Date("2025-02-26")}
-          description="An example post. You could do some cool stuff with this. This is a good example of using custom components within the same page."
-          title="Example 1"
+          date={new Date("6/12/2026")}
+          description="The class is not to extreme and there is plenty of help in case you need it "
+          title="Reason 1"
         />
         <Post
-          date={new Date("2025-01-15")}
-          description="Time machine sales are down! Demand decreases as AI take over."
-          title="Time Machine Sales Statistics"
+          date={new Date("6/12/2026")}
+          description="You learn basic HTML and are able to post your very own website"
+          title="Reason 2"
         />
       </div>
     </div>

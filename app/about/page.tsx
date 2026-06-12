@@ -5,8 +5,7 @@ export default function AboutPage() {
     <div>
       <h1 className={title()}>About</h1>
       <p>
-        This is where you talk about yourself or your company or whatever
-        really. Or delete this page and make something more interesting.
+        My experience with this class was amazing i learned so much and it was super interactive 
       </p>
     </div>
   );

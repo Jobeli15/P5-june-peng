@@ -22,23 +22,23 @@ export default function PricingPage() {
       <h1 className={title()}>Pricing</h1>
 
       <p>Pricing? Boring!</p>
+      <p>Info? Nice!</p>
 
       <section className="mt-20">
-        <h2 className="text-center text-4xl font-bold">Example Plans</h2>
+        <h2 className="text-center text-4xl font-bold">TAKE SOME FREE PLANS RAHH!</h2>
         <div className="flex justify-center gap-8 mt-20">
           {/* plan 1 */}
           <Card className="p-6 w-1/3">
             <CardHeader>
               <div className="text-3xl text-center w-full font-extrabold text-primary">
-                $29.99 <span className="text-sm">/mo</span>
+                FREE <span className="text-sm">0$</span>
               </div>
             </CardHeader>
             <CardBody>
               <ul className="list-disc pl-5 text-xl">
-                <li>1,000 monthly orders</li>
-                <li>5,000 customer limit</li>
-                <li>Manual bookkeeping and invoices</li>
-                <li>Standard shipping</li>
+                <li>♾️monthly orders</li>
+                <li>♾️customer limit</li>
+                <li>♾️Standard shipping</li>
               </ul>
             </CardBody>
             <CardFooter className="justify-center">
@@ -49,7 +49,7 @@ export default function PricingPage() {
                   thisDoesNothingToast();
                 }}
               >
-                Sign Up
+                FREE²
               </Button>
             </CardFooter>
           </Card>
@@ -58,15 +58,14 @@ export default function PricingPage() {
           <Card className="p-6 w-1/3">
             <CardHeader>
               <div className="text-3xl text-center w-full font-extrabold text-secondary">
-                $59.99 <span className="text-sm">/mo</span>
+                FREE² <span className="text-sm">0$</span>
               </div>
             </CardHeader>
             <CardBody>
               <ul className="list-disc pl-5 text-xl">
-                <li>Unlimited monthly orders</li>
-                <li>100,000 customer limit</li>
-                <li>AI powered bookkeeping and invoices</li>
-                <li>Standard + Express shipping</li>
+                <li>♾️Unlimited monthly orders²</li>
+                <li>♾️customer limit²</li>
+                <li>♾️Standard + Express shipping²</li>
               </ul>
             </CardBody>
             <CardFooter className="justify-center">
@@ -77,7 +76,7 @@ export default function PricingPage() {
                   thisDoesNothingToast();
                 }}
               >
-                Sign Up
+                FREE²
               </Button>
             </CardFooter>
           </Card>
@@ -86,15 +85,14 @@ export default function PricingPage() {
           <Card className="p-6 w-1/3">
             <CardHeader>
               <div className="text-3xl text-center w-full font-extrabold text-success">
-                Custom
+                FREE³
               </div>
             </CardHeader>
             <CardBody>
               <ul className="list-disc pl-5 text-xl">
-                <li>Unlimited monthly orders</li>
-                <li>Unlimited customers</li>
-                <li>Custom shipping</li>
-                <li>AI tools</li>
+                <li>Unlimited monthly orders³</li>
+                <li>Unlimited customers³</li>
+                <li>Custom shipping³</li>
               </ul>
             </CardBody>
             <CardFooter className="justify-center">
@@ -105,7 +103,7 @@ export default function PricingPage() {
                   thisDoesNothingToast();
                 }}
               >
-                Contact Us
+                FREE³
               </Button>
             </CardFooter>
           </Card>
@@ -115,15 +113,14 @@ export default function PricingPage() {
       <section className="my-40">
         <h2 className="text-center text-4xl font-bold">FAQ</h2>
         <Accordion>
-          <AccordionItem key={1} title="Why time machines?">
-            Because noboody else sells them!
+          <AccordionItem key={1} title="What did we learn">
+            How to create and depoloy basic websites while programing with basic HTML and trouble shooting
           </AccordionItem>
           <AccordionItem
             key={2}
-            title="How many time machines do we sell per year?"
+            title="How was the class"
           >
-            According to our 2063 statistics, we sold roughly 4800 time
-            machines.
+            Students learned basic programing and was super interactive and fun!
           </AccordionItem>
         </Accordion>
       </section>
